@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @keyframes bgchange {
+        0% {
+          background-color: blue;
+        }
+        25% {
+          background-color: aqua;
+        }
+        55% {
+          background-color: chartreuse;
+        }
+        100% {
+          background-color: yellow;
+        }
+      }
+      .my {
+        animation-name: bgchange;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="my">메롱</div>
+  </body>
+</html>
